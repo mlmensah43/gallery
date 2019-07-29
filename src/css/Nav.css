@@ -1,0 +1,43 @@
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-right: 2%; 
+}
+
+.nav-items{
+    margin-left: 6%;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: #524F4F;
+}
+
+@media screen and (max-width: 1060px) {
+    .nav-item{
+        margin-left: 45%; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav-item{
+        margin-top: 6%;
+        margin-left: 0%; 
+    }
+    .nav-items{
+        font-size: 15px;
+      }
+  }
