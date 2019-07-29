@@ -1,5 +1,5 @@
 import React from 'react';
-import Skyline from './Skyline';
+import Skyline from './components/Skyline';
 import './css/Nav.css';
 
 function App() {
