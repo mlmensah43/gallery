@@ -1,8 +1,7 @@
-body {
+body{
     background: #09203F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #09203F, #2F4E6B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #09203F, #2F4E6B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed;
 }
 
 
@@ -21,13 +20,18 @@ body {
     font-weight: 200;
     color: white;
     text-align: center;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+#ul{
+    text-align: center;
 }
 
 
 ul li{
     list-style-type: none;
     display: inline;
-    margin: 2rem;
 }
 
 .prompt{

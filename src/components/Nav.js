@@ -1,14 +1,18 @@
 import React from 'react';
-import './css/Nav.css';
+import {Link} from "react-router-dom";
+import '../css/Nav.css';
 
 function Nav(props) {
   return (
-    <div className={`flex-container nav-item ${ props.color }`}>
-        <div className="nav-items" >under the sea</div>
-        <div className="nav-items">snow</div>
-        <div className="nav-items">abstract</div>
-        <div className="nav-items">skyline</div>
-    </div>
+      <div className={`flex-container nav-items ${ props.color }`}>
+        <ul>
+          <li className="nav-item"><Link to="/Sea">sea</Link></li>
+          <li className="nav-item"><Link to="/Snow">snow</Link></li> 
+          <li className="nav-item"><Link to="/Abstract">abstract</Link></li>  
+          <li className="nav-item"><Link to="/Skyline">skyline</Link></li>
+        </ul>
+      </div>
+    
   );
 }
 

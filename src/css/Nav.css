@@ -5,17 +5,19 @@
 }
 
 .nav-item{
+    list-style-type: none;
+    display: inline;
+    margin-left: 6%
+}
+
+.nav-items{
     font-family: Roboto;
     font-size: 20px;
     font-weight: 200;
     text-transform: uppercase;
     margin-top: 2%;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-right: 2%; 
-}
-
-.nav-items{
-    margin-left: 6%;
 }
 
 .white{
@@ -27,17 +29,19 @@
 }
 
 @media screen and (max-width: 1060px) {
-    .nav-item{
+    .nav-items{
         margin-left: 45%; 
     }
 }
 
 @media screen and (max-width: 700px) {
-    .nav-item{
-        margin-top: 6%;
-        margin-left: 0%; 
-    }
     .nav-items{
+        margin-top: 6%;
+        margin-left: 0%;
+        
+    }
+    .nav-item{
         font-size: 15px;
+        text-align: center;
       }
   }
