@@ -12,9 +12,9 @@ function Sea() {
             Snow
         </div>
         <div className="flex-container photos">
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/snow/view.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/snow/snowflake.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/snow/mountains.jpg")} ></Photo>
         </div>
     </div>
   );

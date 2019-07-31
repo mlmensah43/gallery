@@ -13,9 +13,9 @@ function Sea() {
             Under the Sea
         </div>
         <div className="flex-container photos">
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/sea/fish.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/sea/starfish.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/sea/jellyfish.jpg")} ></Photo>
         </div>
     </div>
     </body>

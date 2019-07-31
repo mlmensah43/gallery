@@ -12,9 +12,9 @@ function Abstract() {
             Abstract
         </div>
         <div className="flex-container photos">
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/starfish.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/abstract/smokey.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/abstract/painting.jpg")} ></Photo>
+            <Photo className="photo" photographer="photo" image={require("../images/abstract/icey.jpg")} ></Photo>
         </div>
     </div>
   );
