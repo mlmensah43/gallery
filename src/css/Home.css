@@ -1,7 +1,13 @@
-body{
+.home-background{
     background: #09203F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #09203F, #2F4E6B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #09203F, #2F4E6B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
 }
 
 

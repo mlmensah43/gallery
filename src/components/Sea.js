@@ -6,8 +6,7 @@ import '../css/Sea.css';
 
 function Sea() {
   return (
-    <body className="sea-background">
-      <div>
+      <div className="sea-background">
         <Nav color="white"></Nav>
         <div id="sea" className="page-title">
             Under the Sea
@@ -18,7 +17,6 @@ function Sea() {
             <Photo className="photo" photographer="photo" image={require("../images/sea/jellyfish.jpg")} ></Photo>
         </div>
     </div>
-    </body>
     
   );
 }

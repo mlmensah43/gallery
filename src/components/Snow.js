@@ -6,7 +6,7 @@ import '../css/Snow.css';
 
 function Sea() {
   return (
-    <div>
+    <div className="snow-background">
         <Nav color="black"></Nav>
         <div id="snow" className="page-title">
             Snow

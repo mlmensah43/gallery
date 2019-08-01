@@ -4,17 +4,17 @@ import '../css/Home.css';
 
 function Home() {
   return (
-        <div id="home-background">
+        <div className="home-background">
             <div className="title">
                 Gallery
             </div>
             
             <div>
                 <ul id="ul">
-                    <li className="subtitle"><Link to="/Sea">sea</Link></li>
-                    <li className="subtitle"><Link to="/Snow">snow</Link></li>
-                    <li className="subtitle"><Link to="/Abstract">abstract</Link></li>
-                    <li className="subtitle"><Link to="/Skyline">skyline</Link></li>
+                    <li className="subtitle link"><Link to="/Sea" style={{ color: '#FFFFFF' }}>sea</Link></li>
+                    <li className="subtitle link"><Link to="/Snow" style={{ color: '#FFFFFF' }}>snow</Link></li>
+                    <li className="subtitle link"><Link to="/Abstract" style={{ color: '#FFFFFF' }}>abstract</Link></li>
+                    <li className="subtitle link"><Link to="/Skyline" style={{ color: '#FFFFFF' }}>skyline</Link></li>
                 </ul>
             </div>
 

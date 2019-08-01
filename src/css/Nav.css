@@ -28,6 +28,14 @@
     color: #524F4F;
 }
 
+.link {
+    color: #FFF;
+  }
+  
+.link:hover {
+     color: #00F
+  }
+
 @media screen and (max-width: 1060px) {
     .nav-items{
         margin-left: 45%; 

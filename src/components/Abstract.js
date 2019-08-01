@@ -6,7 +6,7 @@ import '../css/Abstract.css';
 
 function Abstract() {
   return (
-    <div>
+    <div className="abstract-background">
         <Nav color="white"></Nav>
         <div id="abstract" className="page-title">
             Abstract
