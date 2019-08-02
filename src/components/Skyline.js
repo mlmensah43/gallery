@@ -6,7 +6,7 @@ import '../css/Skyline.css';
 
 function Skyline() {
   return (
-    <div className="skyline-background">
+    <div className="skyline-background background">
         <Nav color="white"></Nav>
         <div id="skyline" className="page-title">
             Skyline

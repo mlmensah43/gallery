@@ -6,7 +6,7 @@ import '../css/Sea.css';
 
 function Sea() {
   return (
-      <div className="sea-background">
+      <div className="sea-background background">
         <Nav color="white"></Nav>
         <div id="sea" className="page-title">
             Under the Sea

@@ -1,3 +1,12 @@
+.background{
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+}
+
 .page-title{
     font-size: 60px;
     margin-left: 4%;
@@ -25,4 +34,10 @@
       margin-top: 5%;
       text-align: center;
     }
+
+    .background{
+      background-attachment: cover;
+      position: absolute;
+      overflow: auto;
+  }
   }

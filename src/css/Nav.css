@@ -24,17 +24,17 @@
     color: white;
 }
 
+.white:hover{
+    color: white;
+}
+
 .black{
     color: #524F4F;
 }
 
-.link {
-    color: #FFF;
-  }
-  
-.link:hover {
-     color: #00F
-  }
+.black:hover{
+    color: #524F4F;
+}
 
 @media screen and (max-width: 1060px) {
     .nav-items{

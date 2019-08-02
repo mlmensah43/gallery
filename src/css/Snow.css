@@ -1,15 +1,8 @@
 .snow-background {
     background: #E3EEFE,;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #E3EEFE, #F2E7E9 );  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
+    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
-
 #snow{
     font-family: Teeshirt;
     color: #524F4F;
