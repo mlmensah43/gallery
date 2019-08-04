@@ -12,9 +12,9 @@ function Skyline() {
             Skyline
         </div>
         <div className="flex-container photos">
-            <Photo className="photo" photographer="photo" image={require("../images/skyline/square.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/skyline/top.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/skyline/blue.jpg")} ></Photo>
+            <Photo className="photo" photographer="Andre Benz" image={require("../images/skyline/square.jpg")} ></Photo>
+            <Photo className="photo" photographer="Natayla Letunova" image={require("../images/skyline/top.jpg")} ></Photo>
+            <Photo className="photo" photographer="Max Bender" image={require("../images/skyline/blue.jpg")} ></Photo>
         </div>
     </div>
   );

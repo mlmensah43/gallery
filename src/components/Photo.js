@@ -1,11 +1,19 @@
 import React from 'react';
+import ModalImage from "react-modal-image";
 import '../css/Photo.css';
 
 function Photo(props) {
   return (
     <div>
         <div className="box">
-            <span className="image-gap"><img className="image" src={props.image} alt="not rendered"></img></span>
+          <ModalImage
+            className="image"
+            hideDownload="true"
+            hideZoom="true"
+            small={props.image}
+            large={props.image}
+            alt={props.photographer}
+          />
         </div>
     </div>
     

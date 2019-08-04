@@ -7,14 +7,17 @@ import '../css/Snow.css';
 function Sea() {
   return (
     <div className="snow-background background">
+
         <Nav color="black"></Nav>
+
         <div id="snow" className="page-title">
             Snow
         </div>
+
         <div className="flex-container photos">
-            <Photo className="photo" photographer="photo" image={require("../images/snow/view.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/snow/snowflake.jpg")} ></Photo>
-            <Photo className="photo" photographer="photo" image={require("../images/snow/mountains.jpg")} ></Photo>
+            <Photo className="photo" photographer="Alberto Restifo" data-toggle="modal" data-target="#exampleModalCenter" image={require("../images/snow/view.jpg")} ></Photo>
+            <Photo className="photo" photographer="Aaron Burden" image={require("../images/snow/snowflake.jpg")} ></Photo>
+            <Photo className="photo" photographer="Kate Moum" image={require("../images/snow/mountains.jpg")} ></Photo>
         </div>
     </div>
   );
