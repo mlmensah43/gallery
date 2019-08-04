@@ -1,4 +1,5 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
 import Nav from './Nav';
 import Photo from './Photo';
 import '../css/Page.css';
@@ -11,7 +12,7 @@ function Sea() {
         <Nav color="black"></Nav>
 
         <div id="snow" className="page-title">
-            Snow
+           <Slide duration={1000} left>Snow</Slide> 
         </div>
 
         <div className="flex-container photos">

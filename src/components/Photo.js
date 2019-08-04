@@ -6,6 +6,7 @@ function Photo(props) {
   return (
     <div>
         <div className="box">
+
           <ModalImage
             className="image"
             hideDownload="true"
@@ -14,6 +15,7 @@ function Photo(props) {
             large={props.image}
             alt={props.photographer}
           />
+          
         </div>
     </div>
     

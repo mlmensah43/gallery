@@ -1,15 +1,18 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
+import Jump from 'react-reveal/Jump';
+// import Pulse from 'react-reveal/Pulse';
 import '../css/Home.css';
 
 function Home() {
   return (
         <div className="home-background">
+
             <div className="title">
-                Gallery
+                <Fade duration={3000} bottom>Gallery</Fade>
             </div>
-            
+   
             <div>
                 <ul id="ul">
                     <li className="subtitle link"><Link to="/Sea" style={{ color: '#FFFFFF' }}>sea</Link></li>
@@ -20,8 +23,9 @@ function Home() {
             </div>
 
             <div className="subtitle prompt">
-                CHOOSE ONE TO GET STARTED
+                <Jump delay={4000} forever>CHOOSE ONE TO GET STARTED</Jump>
             </div>
+            
         </div>
   );
 }
