@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gallery/static/css/main.c9a408ac.chunk.css",
+    "main.js": "/gallery/static/js/main.ae454a4b.chunk.js",
+    "main.js.map": "/gallery/static/js/main.ae454a4b.chunk.js.map",
+    "runtime~main.js": "/gallery/static/js/runtime~main.3e4d5bb6.js",
+    "runtime~main.js.map": "/gallery/static/js/runtime~main.3e4d5bb6.js.map",
+    "static/js/2.aec75699.chunk.js": "/gallery/static/js/2.aec75699.chunk.js",
+    "static/js/2.aec75699.chunk.js.map": "/gallery/static/js/2.aec75699.chunk.js.map",
+    "index.html": "/gallery/index.html",
+    "precache-manifest.bc43b57a80156d315f417e2c5c439d73.js": "/gallery/precache-manifest.bc43b57a80156d315f417e2c5c439d73.js",
+    "service-worker.js": "/gallery/service-worker.js",
+    "static/css/main.c9a408ac.chunk.css.map": "/gallery/static/css/main.c9a408ac.chunk.css.map",
+    "static/media/blue.jpg": "/gallery/static/media/blue.193af9ab.jpg",
+    "static/media/fish.jpg": "/gallery/static/media/fish.35198c88.jpg",
+    "static/media/icey.jpg": "/gallery/static/media/icey.df4c439f.jpg",
+    "static/media/jellyfish.jpg": "/gallery/static/media/jellyfish.cc25eee4.jpg",
+    "static/media/mountains.jpg": "/gallery/static/media/mountains.0c708ab6.jpg",
+    "static/media/painting.jpg": "/gallery/static/media/painting.114628db.jpg",
+    "static/media/smokey.jpg": "/gallery/static/media/smokey.e291f603.jpg",
+    "static/media/snowflake.jpg": "/gallery/static/media/snowflake.9c19dba4.jpg",
+    "static/media/square.jpg": "/gallery/static/media/square.0bb4d5f4.jpg",
+    "static/media/starfish.jpg": "/gallery/static/media/starfish.78ce86d1.jpg",
+    "static/media/top.jpg": "/gallery/static/media/top.5ddba7ea.jpg",
+    "static/media/view.jpg": "/gallery/static/media/view.9f120aa1.jpg"
+  }
+}
