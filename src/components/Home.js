@@ -23,7 +23,7 @@ function Home() {
             </div>
 
             <div className="subtitle prompt">
-                <Jump delay={4000} forever>CHOOSE ONE TO GET STARTED</Jump>
+                <Jump delay={4000} duration={1500} forever>CHOOSE ONE TO GET STARTED</Jump>
             </div>
             
         </div>
