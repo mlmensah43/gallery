@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gallery/static/css/main.c9a408ac.chunk.css",
+    "main.css": "/gallery/static/css/main.426abf99.chunk.css",
     "main.js": "/gallery/static/js/main.163d5def.chunk.js",
     "main.js.map": "/gallery/static/js/main.163d5def.chunk.js.map",
     "runtime~main.js": "/gallery/static/js/runtime~main.3e4d5bb6.js",
@@ -8,9 +8,9 @@
     "static/js/2.80728844.chunk.js": "/gallery/static/js/2.80728844.chunk.js",
     "static/js/2.80728844.chunk.js.map": "/gallery/static/js/2.80728844.chunk.js.map",
     "index.html": "/gallery/index.html",
-    "precache-manifest.2c313cedcc22081ad942f438e398a37e.js": "/gallery/precache-manifest.2c313cedcc22081ad942f438e398a37e.js",
+    "precache-manifest.b40a13fb3b9ca742d5dd75c73ca7cc96.js": "/gallery/precache-manifest.b40a13fb3b9ca742d5dd75c73ca7cc96.js",
     "service-worker.js": "/gallery/service-worker.js",
-    "static/css/main.c9a408ac.chunk.css.map": "/gallery/static/css/main.c9a408ac.chunk.css.map",
+    "static/css/main.426abf99.chunk.css.map": "/gallery/static/css/main.426abf99.chunk.css.map",
     "static/media/blue.jpg": "/gallery/static/media/blue.193af9ab.jpg",
     "static/media/fish.jpg": "/gallery/static/media/fish.35198c88.jpg",
     "static/media/icey.jpg": "/gallery/static/media/icey.df4c439f.jpg",
